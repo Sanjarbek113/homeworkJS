@@ -36,17 +36,58 @@ input{
     align-items: center;
 }
 .delete-btn{
-    background-color: aqua;
-    width: 40px;
-    height: 20px;
-    position: relative;
-    left: 40px;
+    background-color: black;
+    width: auto;
+    height: auto;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px 10px;
+    color: whitesmoke;
+    
 }
 .list{
     border:  2px solid grey;
-    background-color: lightcyan;
+    background-color: lightsteelblue;
     width: auto;
-    padding-right: 40px;
+    padding-right: 10px;
     padding-left: 10px;
+    padding-top: 10px;
     margin-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.btn-active{
+    display: none;
+}
+.main-flex{
+    background-color: darkcyan;
+    padding: 20px;
+    width: max-content;
+}
+body{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    position: relative;
+    left: 550px;
+}
+input{
+    padding: 4px;
+    color: whitesmoke;
+    color: darkslategrey;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 3px;
+    width: 70px;
+    border: none;
+    color: whitesmoke;
+    background-color: darkslategrey;
+
 }

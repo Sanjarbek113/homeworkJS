@@ -48,13 +48,6 @@ deletebtn.addEventListener("click", e =>{
     deletebtn.classList.remove("delete-btn");
     olElement.classList.remove("box-list");
     olElement.classList.remove("list");
+    deletebtn.classList.add("btn-active");
 })
-})
-
-deletebtn.addEventListener("click", e =>{
-    liElemet1.textContent ="";
-    liElemet2.textContent ="";
-    liElemet3.textContent ="";
-    liElemet4.textContent ="";
-   
 })
